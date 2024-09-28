@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website | motion graphics</title>
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script> -->
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+
+    <!-- <script async src="https://unpkg.com/es-module-shims@1.8.0/dist/es-module-shims.js"></script>
+    <script type="importmap">
+        {
+          "imports": {
+            "three": "https://unpkg.com/three@0.156.0/build/three.module.js",
+            "three/addons/": "https://unpkg.com/three@0.156.0/examples/jsm/"
+          }
+        }
+      </script> -->
+</head>
+<body>
+
+    <div id="main " >
+        <header class="header flex" id="home">
+            <div class="logo">Vivek</div>
+            <nav>
+                <div class="navlinks flex-column close">
+                    <h4><a href="#home">Home</a></h4>
+                    <h4><a href="#services">Services</a></h4>
+                    <h4><a href="#about">About</a></h4>
+                    <h4><a href="#skills">Skills</a></h4>
+                    <h4><a href="#portfolio">Portfolio</a></h4>
+                    <h4><a href="#contact">Contact</a></h4>
+                </div>
+            </nav>
+            <div class="menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </header>
+
+        <div class="hero-section flex-column">
+
+            <div class="text-content flex-column">
+                <h3 class="intro">👋, I am Vivek and I am a</h3>
+                
+                <h1 class="role">Frontend <span class="role-split">Developer </span> 
+                    <a href="https://www.linkedin.com/in/vivek-palan/" class="redirect" target="_blank">↗</a>
+                </h1>
+
+            </div>
+
+            <div class="blob"></div>
+
+            <div class="links-container flex">
+                <button class="cv"><a href="./CV/Resume 3.pdf" download class="download__btn">Download CV</a></button>
+                <a href="#portfolio" class="follow">My Projects</a>
+
+            </div>
+<!-- 
+            <div class="content-container">
+                <div class="static-txt">Hello, I'm a</div><br>
+                <div class="dynamic-txt">
+                    <li><span>Frontend Developer</span></li>
+                    <li><span>Coder</span></li>
+                    <li><span>Student</span></li>
+                </div>
+                
+            </div>
+            <div class="img-container"></div> -->
+        </div>
+
+        <section class="section2 flex-column" id="about">
+            <h3>About me</h3>
+            <p class="about-me-content">"As an aspiring frontend developer, I have developed a strong foundation in JavaScript and  React, complemented by a solid understanding of CSS and  web design. I am dedicated to building responsive and user-friendly websites that combine both aesthetic appeal and functionality. My development skills are continuously evolving, and I am eager to apply my knowledge in real-world projects, collaborating with teams to create impactful digital experiences."
+
+            </p>
+            <!-- <div class="links-container flex">
+                <button class="cv">Download CV</button>
+                <button class="follow">Follow</button>
+
+            </div> -->
+        </section>
+
+
+        <!-- Use 3D models for this -->
+        <section class="section3 skills flex-column" id="skills">
+
+            <h1>My Skills</h1>
+
+            <div class="skill-container flex">
+                <div class="skill-icon flex"><img src="./img/html-5.png" alt=""></div>
+                <div class="skill-icon flex"><img src="./img/css-3.png" alt=""></div>
+                <div class="skill-icon flex"><img src="./img/js.png" alt=""></div>
+                <div class="skill-icon flex"><img class="react" src="./img/react.png" alt=""></div>
+                <div class="skill-icon flex"><img src="./img/social.png" alt=""></div>
+                <div class="skill-icon flex"><img src="./img/github.png" alt=""></div>
+
+            </div>
+
+           
+        </section>
+
+        <section class="container"  id="portfolio">
+            <div class="card__container swiper">
+                <h1>My Projects</h1>
+               <div class="card__content">
+                  <div class="swiper-wrapper">
+                     <article class="card__article swiper-slide">
+                        <div class="card__image">
+                           <img src="img/Project Mockups/ui2.png" alt="image" class="card__img">
+                           <!-- <div class="card__shadow"></div> -->
+                        </div>
+         
+                        <div class="card__data">
+                           <h3 class="card__name">Password Generator</h3>
+                           <p class="card__description">
+                              Provides you a randomly generated password allowing you to set the length ad characters of the password.
+                           </p>
+         
+                           <a href="https://vivekpalan.github.io/PasswordGenerator/" target="_blank" class="card__button">View</a>
+                        </div>
+                     </article>
+                     <article class="card__article swiper-slide">
+                        <div class="card__image">
+                           <img src="img/Project Mockups/ui4.png" alt="image" class="card__img">
+                           <!-- <div class="card__shadow"></div> -->
+                        </div>
+         
+                        <div class="card__data">
+                           <h3 class="card__name">Cart Filter</h3>
+                           <p class="card__description">
+                              A Cart Filter app using an API to fetch products according to the key typed in the search bar. 
+                           </p>
+         
+                           <a href="https://vivekpalan.github.io/FilterCart/" target="_blank" class="card__button">View</a>
+                        </div>
+                     </article>
+                     <article class="card__article swiper-slide">
+                        <div class="card__image">
+                           <img src="img/Project Mockups/ui5.png" alt="image" class="card__img">
+                           <!-- <div class="card__shadow"></div> -->
+                        </div>
+         
+                        <div class="card__data">
+                           <h3 class="card__name">Quiz App</h3>
+                           <p class="card__description">
+                              Developed a responsive math quiz app featuring score tracking and interactive questions.
+                           </p>
+         
+                           <a href="https://vivekpalan.github.io/Quizapp/" target="_blank" class="card__button">View</a>
+                        </div>
+                     </article>
+                     <article class="card__article swiper-slide">
+                        <div class="card__image">
+                           <img src="img/Project Mockups/ui3.png" alt="image" class="card__img">
+                           <!-- <div class="card__shadow"></div> -->
+                        </div>
+         
+                        <div class="card__data">
+                           <h3 class="card__name">Expense Tracker</h3>
+                           <p class="card__description">
+                              Developed a responsive expense tracker app listing all the earnings and expenses.
+                           </p>
+         
+                           <a href="https://vivekpalan.github.io/ExpenseTracker/" target="_blank" class="card__button">View</a>
+                        </div>
+                     </article>
+                     <article class="card__article swiper-slide">
+                        <div class="card__image">
+                           <img src="img/Project Mockups/ui8.png" alt="image" class="card__img">
+                           <!-- <div class="card__shadow"></div> -->
+                        </div>
+         
+                        <div class="card__data">
+                           <h3 class="card__name">Tic Tac Toe</h3>
+                           <p class="card__description">
+                              Developed a responsive Tic Tac Toe game using React with interactive gameplay.
+                           </p>
+         
+                           <a href="https://tictactoe-two-teal.vercel.app/" target="_blank" class="card__button">View</a>
+                        </div>
+                     </article>
+                     <article class="card__article swiper-slide">
+                        <div class="card__image">
+                           <img src="img/Project Mockups/ui7.png" alt="image" class="card__img">
+                           <!-- <div class="card__shadow"></div> -->
+                        </div>
+         
+                        <div class="card__data">
+                           <h3 class="card__name" style="font-size: 16px;">Real Estate Landing Page</h3>
+                           <p class="card__description">
+                              Developed a responsive real estate landing page with property listings.
+                           </p>
+         
+                           <a href="https://vivekpalan.github.io/RentWebsite/" target="_blank" class="card__button">View</a>
+                        </div>
+                     </article>
+         
+                    
+                  </div>
+               </div>
+   
+               <!-- Navigation buttons -->
+               <div class="swiper-button-next">
+                  <i class="ri-arrow-right-s-line"></i>
+               </div>
+               
+               <div class="swiper-button-prev">
+                  <i class="ri-arrow-left-s-line"></i>
+               </div>
+   
+               <!-- Pagination -->
+               <div class="swiper-pagination"></div>
+            </div>
+         </section>
+
+
+            <div class="section4 portfolio flex-column" id="services">
+
+                <h1>My Services</h1>
+                <div class="portfolio-container flex-column">
+
+                    <div class="card flex-column">
+                        <div class="icon-container flex">
+                            <div class="icons flex" id="icon1">
+                                <!-- <h3>Blog website</h3> -->
+                                <img src="./img/palette.png" alt="" width="50" height="50">
+                            </div>
+                            <div class="icons flex" id="icon2">↗</div>
+                
+                        </div>
+                        
+                        <div class="view"></div>
+                       
+                        <div class="card-contents">
+                            <p>UI/UX design services to create intuitive, user-friendly and visually appealing interfaces for seamless digital experiences.</p>
+                        </div>
+                    </div>
+                    <div class="card flex-column">
+                        <div class="icon-container flex">
+                            <div class="icons flex" id="icon1">
+                                <!-- <h3>Blog website</h3> -->
+                                <img src="./img/code.png" alt="" width="50" height="50">
+                                
+                            </div>
+                            <div class="icons flex" id="icon2">↗</div>
+                
+                        </div>
+                        
+                        <div class="view"></div>
+                       
+                        <div class="card-contents">
+                            <p>Providing web development services to build responsive, scalable, and user-friendly websites using modern technologies and best practices.</p>
+                        </div>
+                    </div>
+                    <div class="card flex-column">
+                        <div class="icon-container flex">
+                            <div class="icons flex" id="icon1">
+                                <!-- <h3>Blog website</h3> -->
+                                <img src="./img/responsive.png" alt="">
+                            </div>
+                            <div class="icons flex" id="icon2">↗</div>
+                
+                        </div>
+                        
+                        <div class="view"></div>
+                       
+                        <div class="card-contents">
+                            <p>Animations to create dynamic, engaging visuals that enhance storytelling and user interactions.</p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+        <section class=" section5 banner flex-column">
+            <!-- <img src="./img/_banner.png" alt=""> -->
+
+            <h1>Why hire me?</h1>
+            <p>Thrilled about opportunities and by tackling challenges through JavaScript and React, continuously refining my development skills and deepening my understanding of web design and CSS to create impactful solutions.</p>
+            
+        </section>
+
+          <div class="contact-form flex-column" id="contact">
+            <h1>Say hello</h1>
+            <div class="contact-container flex">
+                <!-- Personal details in desktop mode -->
+
+                <div class="personal-details">
+                    <ul class="personal-details-container flex-column ">
+                        <li class="flex-column">
+                            <h3>Location</h3>
+                            <div>Mumbai,India</div>
+                        </li>
+                        <li>
+                            <h3>Let's Talk</h3>
+                            <div>+91 9987639362</div>
+                        </li>
+                        <li>
+                            <h3>General Support</h3>
+                            <div>vivekpalan315@gmail.com</div>
+                        </li>
+                    </ul>
+                </div>
+
+                <form action="#" class="form-container">
+                    <div class="name">
+                        <label for="name">Your Name:</label>
+                        <input type="text" name="" id="">
+                    </div>
+                    <div class="email">
+                        <label for="email">Your Email:</label>
+                        <input type="email" name="" id="">
+                    </div>
+                    <div class="message">
+                        <label for="messgae">Message</label>
+                        <textarea name="" id="" cols="60" rows="5" ></textarea>
+                    </div>
+                    <input class="button" type="submit" value="Send Message">
+                </form>
+            </div>
+        </div>
+       
+        <footer class="footer">
+            <!-- <div class="curve"></div>
+            <div class="curve curve2"></div> -->
+
+            <div class="part1">
+                <h3>Have A Question? <span>hello@example.com</span></h3>
+            </div>
+            <div class="part2">
+                <h3>Information</h3>
+                <div>Mumbai,India</div>
+                <h4><a href="#services">Services</a></h4>
+                <h4><a href="#portfolio">Projects</a></h4>
+                <h4><a href="#education">Education</a></h4>
+                <h4><a href="#about">About</a></h4>
+            </div>
+            <a href="#home"  class="home-arrow">⬆</a>
+            <div class="part3">
+                <h3>Social Links</h3>
+                <div class="social-links-container">
+                    <h4><a href="https://github.com/"><img src="/img/github.png" alt=""></box-icon></a></h4>
+                    <h4><a href="https://www.linkedin.com/in/vivek-palan/"><img src="./img/linkedin-logo.png" alt=""></a></h4>
+                </div>
+            </div>
+            
+        </footer>
+
+        
+
+        <!-- <div class="portfolio"></div>
+        <div class="education"></div>
+        <div class="achievements"></div> -->
+
+        <!-- <div class="contact-me flex-column">
+            <div class="bg-layer flex">
+                <h2>Get In Touch</h2>
+            </div>
+
+            <form action="#" class="form-container flex-column">
+                    <div class="personal-contact-details flex-column">
+                        
+                    <h3>Contact Information</h3>     
+                        
+                        
+                    <ul class="flex-column">
+                        <li class="flex"> 
+                            <div class="contact-icon">E</div>
+                            <div class="email">vivekpalan315@gmail.com</div>
+                        </li>
+                        <li class="flex">
+                            <div class="icon">P</div>
+                            <div class="number">+91 9987639362</div>
+                        </li>
+                        
+                        <li class="flex">
+                            <div class="contact-location">L</div>
+                            <div class="location">Mumbai,India</div>
+
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="form-elements flex-column">
+
+                    <div class="name">
+                        <label for="name">Your Name:</label>
+                        <input type="text" name="" id="">
+                    </div>
+                    <div class="email">
+                        <label for="email">Your Email:</label>
+                        <input type="email" name="" id="">
+                    </div>
+                    <div class="message">
+                        <label for="messgae">Message</label>
+                        <textarea name="" id="" cols="60" rows="5" placeholder="Write your messgae here"></textarea>
+                    </div>
+                    <input class="button" type="submit" value="Send Message">
+                </div>
+            </form>
+        </div> -->
+        <!-- <footer class="footer">
+            <h4>Hello</h4>
+        </footer> -->
+
+     
+
+
+        <!-- FOR DESKTOP -->
+
+        <!-- Typing hero animation along with image with CTA -->
+        <!-- Skills to showcase with three js -->
+        <!-- Portfolio with pagination -->
+        <!-- Services -->
+        <!-- Education with some animation or hovering effect -->
+        <!-- Achievements -->
+        <!-- Contact -->
+
+        <!-- FOR MOBILES -->
+
+        <!-- Make sure to keep animations on scroll -->
+        <!-- Micro interactions can be optional -->
+
+        
+    </div>
+
+
+
+    <!-- <div class="div1 divs"></div>
+    <div class="div2 divs"></div>
+    <div class="div3 divs"></div>
+
+    <button>Click here</button> -->
+
+    <!-- <div class="alternate divs"></div>
+    <div class="gradient divs"></div>
+    <svg id="svg" xmlns="http://www.w3.org/2000/svg">
+        <path class="line01 line" d="M 10 200  600 200"></path>
+        <path class="line02 line" d="M 10 400  600 400"></path>
+        <path class="line03 line" d="M 10 600  600 600"></path>
+        <path class="line04 line" d="M 10 800  600 800"></path>
+        <path class="line05 line" d="M 10 1000  600 1000"></path>
+
+        <text class="text01" x="30" y="190">2018</text>
+        <text class="text02" x="30" y="390">2019</text>
+        <text class="text03" x="30" y="590">2020</text>
+
+        <path class="theLine" 
+        d="M -5,0
+           Q 450 230 300 450
+           T 130 750
+           Q 100 850 300 1000
+           T 150 2000"
+           fill="none" stroke="white" stroke-width="10px" />
+
+           <circle class="ball ball01" r="20" cx="50" cy="100"></circle>
+           <circle class="ball ball02" r="20" cx="278" cy="201"></circle>
+           <circle class="ball ball03" r="20" cx="327" cy="401"></circle>
+           <circle class="ball ball04" r="20" cx="203" cy="601"></circle>
+    </svg> -->
+
+
+    <!-- <canvas class="webgl"></canvas>
+
+    <script type="module" src="threeD.js"></script> -->
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/MotionPathPlugin.min.js" integrity="sha512-lhK7xTsFM6DPXOtQQyPe+NmpoFEheKDHjM/5QzpFRiE1KySgtBfEzYz4XowvB+CAWcBLBGWinhh41uNaOtrSZA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap-drawsvg@1.0.0/drawsvgmin.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <script src="gsapFile.js"></script>
+
+    <script src="script.js"></script>
+
+    <script>
+        AOS.init({
+            offset:1,
+            duration: 600,
+        });
+        document.addEventListener('DOMContentLoaded', function() {
+            AOS.refresh();
+        });
+        window.addEventListener('load', AOS.refresh);
+    </script>
+</body>
+</html>
